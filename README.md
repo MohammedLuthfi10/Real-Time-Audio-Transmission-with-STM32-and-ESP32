@@ -30,7 +30,23 @@ Welcome to my audio streaming project! This project involves capturing audio thr
   - Development Environment: [Your IDE of Choice]
 
 ## System Architecture
-+-----------------------+ | PC | | +-------------------+ | | | Audio Playback | | | +-------------------+ | +-----------------------+ | | Bluetooth (ESP32) | +-----------------------+ | STM32F407 Discovery | | +-------------------+ | | | Microphone | | | | (Analog/Digital)| | | +-------------------+ | +-----------------------+
++-----------------------+
+|        PC             |
+| +-------------------+ |
+| |   Audio Playback  | |
+| +-------------------+ |
++-----------------------+
+          |
+          | Bluetooth (ESP32)
+          |
++-----------------------+
+|  STM32F407 Discovery  |
+| +-------------------+ |
+| |    Microphone     | |
+| |   (Analog/Digital)| |
+| +-------------------+ |
++-----------------------+
+
 
 
 ## Setup and Configuration
