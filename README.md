@@ -29,26 +29,6 @@ Welcome to my audio streaming project! This project involves capturing audio thr
   - STM32CubeMX (for peripheral configuration)
   - Development Environment: [Your IDE of Choice]
 
-## System Architecture
-+-----------------------+
-|        PC             |
-| +-------------------+ |
-| |   Audio Playback  | |
-| +-------------------+ |
-+-----------------------+
-          |
-          | Bluetooth (ESP32)
-          |
-+-----------------------+
-|  STM32F407 Discovery  |
-| +-------------------+ |
-| |    Microphone     | |
-| |   (Analog/Digital)| |
-| +-------------------+ |
-+-----------------------+
-
-
-
 ## Setup and Configuration
 1. **STM32F407 Discovery Board**:
    - Use STM32CubeMX to configure peripherals.
